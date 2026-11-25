@@ -409,7 +409,7 @@ public class BetterAdvancementsScreen extends Screen implements ClientAdvancemen
                 selectedTab.getTitle().getVisualOrderText()
             );
         }
-        this.font.draw(poseStack, windowTitle, left + 8, top + 6, 0xFFFFFF);
+        this.font.draw(poseStack, windowTitle, left + 8, top + 6, 16777214);
     }
 
     private void renderToolTips(PoseStack poseStack, int mouseX, int mouseY, int left, int top, int right, int bottom) {
